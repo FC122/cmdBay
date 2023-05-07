@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Dolce Bregana",
+      "description": "Fancy Jacket",
+      "supply": 119,
+      "price": 1000
+    },
+    {
+      "name": "Code Beef",
+      "description": "Expensive Food",
+      "id": 2,
+      "supply": 122,
+      "price": 1000
+    },
+    {
+      "name": "Lemovo Smart Touch",
+      "id": 3,
+      "supply": 123,
+      "description": "128K Screen - 32TB Memory - 500TB SSD - LED",
+      "price": "1200"
+    }
+  ],
+  "users": [
+    {
+      "username": "Dohn",
+      "password": "Baba",
+      "id": 1,
+      "ballance": 11300,
+      "cart": {
+        "items": []
+      }
+    },
+    {
+      "username": "cica",
+      "password": "123",
+      "id": 2999118330,
+      "ballance": 8000,
+      "cart": {
+        "items": []
+      }
+    }
+  ],
+  "invoices": [
+    {
+      "id": 1,
+      "user": {
+        "name": "Dohn",
+        "surname": "Joe",
+        "id": 1,
+        "ballance": 12300,
+        "cart": {
+          "items": []
+        }
+      },
+      "total": 123
+    },
+    {
+      "invoice": {
+        "user": {
+          "username": "cica",
+          "password": "123",
+          "id": 2999118330,
+          "ballance": "10000",
+          "cart": {
+            "items": [
+              {
+                "id": 1,
+                "name": "Dolce Bregana",
+                "description": "Fancy Jacket",
+                "supply": 120,
+                "price": 1000
+              }
+            ]
+          }
+        },
+        "total": 1000,
+        "id": 3732572803
+      },
+      "id": 2
+    },
+    {
+      "invoice": {
+        "user": {
+          "username": "cica",
+          "password": "123",
+          "id": 2999118330,
+          "ballance": 9000,
+          "cart": {
+            "items": []
+          }
+        },
+        "total": 0,
+        "id": 2124689303
+      },
+      "id": 3
+    },
+    {
+      "invoice": {
+        "user": {
+          "username": "cica",
+          "password": "123",
+          "id": 2999118330,
+          "ballance": 9000,
+          "cart": {
+            "items": [
+              {
+                "name": "Code Beef",
+                "description": "Expensive Food",
+                "id": 2,
+                "supply": 123,
+                "price": 1000
+              }
+            ]
+          }
+        },
+        "total": 1000,
+        "id": 4070343659
+      },
+      "id": 4
+    }
+  ]
+}

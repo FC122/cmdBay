@@ -1,0 +1,27 @@
+{
+  "name": "cmdbay",
+  "version": "1.0.0",
+  "description": "Command prompt shop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FC122/cmdBay.git"
+  },
+  "keywords": [
+    "cmd",
+    "buy"
+  ],
+  "author": "Filip Cica",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FC122/cmdBay/issues"
+  },
+  "homepage": "https://github.com/FC122/cmdBay#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "json-server": "^0.17.2"
+  }
+}
