@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Dolce Bregana",
       "description": "Fancy Jacket",
-      "supply": 119,
+      "supply": 115,
       "price": 1000
     },
     {
@@ -38,7 +38,15 @@
       "id": 2999118330,
       "ballance": 8000,
       "cart": {
-        "items": []
+        "items": [
+          {
+            "id": 1,
+            "name": "Dolce Bregana",
+            "description": "Fancy Jacket",
+            "supply": 117,
+            "price": 1000
+          }
+        ]
       }
     }
   ],
